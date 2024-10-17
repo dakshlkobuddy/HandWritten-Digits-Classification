@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load your trained MNIST model
-model = tf.keras.models.load_model('C:/Users/daksh/OneDrive/Desktop/HandWritten Digits Classification/Trained Model/trained_mnist_handwritten_digit_classification_model.h5')
+model = tf.keras.models.load_model('D:/DAKSH/Machine Learning Projects/Deep Learning Projects/HandWritten Digits Classification/Trained Model/trained_mnist_handwritten_digit_classification_model.h5')
 
 # Streamlit app
 st.title("MNIST Handwritten Digit Classification")
